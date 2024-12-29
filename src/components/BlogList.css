@@ -1,0 +1,39 @@
+.blog-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .blog-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  h3{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .blog-card h2 {
+    margin-top: 0;
+  }
+  
+  .blog-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  

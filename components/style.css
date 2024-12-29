@@ -1,0 +1,175 @@
+.gallery {
+    text-align: center;
+    padding: 2rem;
+    
+  }
+  
+  .gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .get-started-btn{
+    margin-bottom: 5%;
+  }
+  .gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 1rem;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .gallery-item h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .gallery-item p {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0 1rem 1rem;
+  }
+
+  /* Hero Section Styles */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background-clip: url('../components/myvideo.mp4') no-repeat center center/cover; /* Replace with your background image URL */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .get-started-btn {
+    background: #ffc107;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Hero Content Styles */
+  .hero-content {
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .shop-now-btn {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .shop-now-btn:hover {
+    background: #fff;
+    color: #000;
+  }
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+span{
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+  .hero-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero-section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  
